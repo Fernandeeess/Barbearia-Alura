@@ -4,10 +4,12 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+
 }
 
 html {
     height: 100%;
+
 }
 
 body {
@@ -23,6 +25,14 @@ header {
     justify-content: space-between;
     align-items: center;
 
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+    margin: 10px;
 }
 
 #logo {
@@ -52,54 +62,54 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
+
+
+#section1 form {
     display: flex;
-    flex-direction: row;
-    background-color: white;
-    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+label {
     margin: 10px;
 }
 
-
-.tipos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    margin: 20px;
-    border: solid black 1px;
+input {
+    display: inline-block;
+    text-align: start;
+    border: solid 1px black;
+    border-radius: 7px;
+    padding: 5px 0px 5px 10px;
+    margin: 10px;
 }
 
-.tipos:hover {
-    background-color: #A8A7A8;
-}
-
-.tipos:hover .preco {
-    color: rgb(1, 68, 1);
-    font-size: 30px;
-}
-
-.tipos:hover .figuras {
-    width: 260px;
-    height: 260px;
+textarea {
+    text-align: start;
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 7px;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 10px;
 }
 
 
-.tipos-cortes {
+
+#submit {
+    text-align: center;
+    color: white;
+    border: solid 0px;
     padding: 10px;
-    text-align: center;
-
+    background-color: #3546A1;
 }
 
-.figuras {
-    width: 250px;
-    height: 250px;
+#submit:hover {
+    background-color: green;
 }
 
-.preco {
-    font-weight: bolder;
-    text-align: center;
 
+h4 {
+    margin: 10px;
 }
 
 footer {
@@ -115,17 +125,10 @@ footer {
     margin-top: auto;
 }
 
-.insidetxt {
-    padding: 10px 0 10px 0;
-    text-align: center;
-    width: 170px;
-
+footer img {
+    width: 15%;
 }
 
 #pfooter {
     padding: 30px 0px 30px 0px;
-}
-
-footer img {
-    width: 5%;
 }

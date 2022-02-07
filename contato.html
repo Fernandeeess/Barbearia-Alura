@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Barbearia alura</title>
+    <link rel="stylesheet" href="style-contato.css">
+    <title>Contato - Barbearia alura</title>
 </head>
 
 <body>
@@ -19,9 +19,29 @@
         </nav>
     </header>
     <main>
+        <section id="section1">
+            <form action="">
+                <label for="nome">Nome e Sobrenome</label>
+                <input type="text" name="nome" placeholder="insira seu nome aqui" id="nome" class="input-contacts">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="insira seu Email aqui" class="input-contacts">
+                <label for="telefone">Telefone</label>
+                <input type="telefone" name="telefone" id="telefone" placeholder="insira seu telefone aqui"
+                    class="input-contacts">
+                <Label for="mensagem">Mensagem</Label>
+                <textarea name="mensagens" id="mensagens" cols="30" rows="10" class="input-contacts"></textarea>
+                <h4>Como prefere o nosso contato?</h4>
+                <label for="radio-email"><input type="radio" name="preferencias" id="radio-email">Email</label>
+                <label for="radio-telefone"><input type="radio" name="preferencias" id="radio-telefone">Telefone</label>
+                <label for="radio-whatsapp"><input type="radio" name="preferencias" id="radio-whatsapp">WhatsApp</label>
+                <label for="receber-informacoes"><input type="checkbox" name="" id="receber-informacoes">Gostaria de
+                    receber nossas novidades por email </label>
 
 
 
+                <input type="submit" value="Enviar" id="submit">
+            </form>
+        </section>
     </main>
     <footer>
         <img src="imagens/logo-branco.png" alt="">
