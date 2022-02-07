@@ -3,8 +3,8 @@
 * {
     margin: 0px;
     padding: 0px;
-
-    font-size: 16px;
+    font-size: sans;
+    border: 1px solid red;
 }
 
 html {
@@ -13,9 +13,11 @@ html {
 }
 
 body {
+
     display: flex;
     flex-direction: column;
     min-height: 100%;
+
 }
 
 header {
@@ -56,67 +58,63 @@ a:hover {
     text-decoration: underline;
 }
 
+#hero {
+    display: inline-block;
+    position: relative;
+}
+
+/*conteudo*/
 main {
     display: flex;
-    flex-direction: row;
-    background-color: white;
-    justify-content: center;
-    margin: 10px;
-}
-
-
-.tipos {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    margin: 20px;
-    border: solid black 1px;
-    -webkit-box-shadow: 10px 12px 18px -8px #000000;
-    box-shadow: 10px 12px 18px -8px #000000;
 }
 
-.tipos:hover {
-
-    border: solid 1px yellow;
-    font-size: 25px;
-}
-
-.tipos:active {
-
-    border: solid 1px rgb(0, 5, 78);
-
+#principal {
+    margin: 20px 30px 10px 30px;
 }
 
 
 
-.tipos:hover .preco {
-    color: rgb(1, 68, 1);
-    font-size: 30px;
+#beneficios {
+    margin: 20px 30px 10px 30px;
 }
 
-.tipos:hover .figuras {
-    width: 260px;
-    height: 260px;
-}
+.tituloCentralizado {
 
-
-.tipos-cortes {
-    padding: 10px;
     text-align: center;
+    font-size: 2em;
+    margin: 3px;
+}
+
+#principal p {
+    font-size: 17px;
+    padding: 2em;
 
 }
 
-.figuras {
-    width: 250px;
-    height: 250px;
+.principal strong {
+    font-weight: bold;
 }
 
-.preco {
-    font-weight: bolder;
-    text-align: center;
-
+.principal em {
+    font-style: italic;
 }
+
+
+#imagensBeneficios {
+    width: 60%;
+    margin: 20px 0px 20px 20px;
+}
+
+
+#utensilios {
+    float: left;
+    display: inline;
+    width: 120px;
+    margin: 0 20px 20px 0;
+}
+
+/*conteudo*/
 
 footer {
     display: flex;
@@ -139,6 +137,7 @@ footer {
 }
 
 #pfooter {
+    font-size: 20px;
     padding: 30px 0px 30px 0px;
 }
 
