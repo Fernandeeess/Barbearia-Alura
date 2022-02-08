@@ -13,7 +13,8 @@ html {
 }
 
 body {
-    min-width: 500px;
+    min-width: 467px;
+    min-height: 710px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -77,7 +78,7 @@ main {
     margin: 30px 0px 30px 0;
     padding: 30px 5px 30px 5pxz;
     text-align: center;
-    font-size: 2em;
+    font-size: 30px;
     font-style: none;
     font-weight: normal
 }
@@ -310,35 +311,13 @@ footer img {
         height: 300px;
         margin: 40px 0px 40px 0;
     }
-}
 
-@media screen and (min-width: 500px) {
-    nav {
-        display: flex;
-        flex-direction: column
-    }
+    .tituloPrincipal {
 
-    #beneficios-li {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
 
-    }
 
-    #imagensBeneficios {
 
-        width: 90%;
-        opacity: 1;
-        margin: 0;
-        -webkit-box-shadow: 9px 12px 17px 2px #000000;
-        box-shadow: 9px 12px 17px 2px #000000;
-
-    }
-
-    #video {
-        width: 460px;
-        height: 300px;
-        margin: 40px 0px 40px 0;
+        font-style: none;
+        font-weight: normal
     }
 }
