@@ -21,6 +21,7 @@ body {
     min-height: 100%;
     font-family: 'Montserrat', sans-serif;
 
+
 }
 
 header {
@@ -30,16 +31,22 @@ header {
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 #logo {
+
+    padding: 0px;
+    margin: 0px;
     padding: 5px 15px 5px 20px;
-    position: relative;
-    left: 50px;
-    width: 50%;
+
+    width: 25%;
 }
 
+
+
 nav {
+
     position: relative;
     right: 50px;
     font-family: 'Roboto',
@@ -48,7 +55,8 @@ nav {
 
 }
 
-a {
+nav a {
+
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -57,7 +65,7 @@ a {
 
 }
 
-a:hover {
+nav a:hover {
     font-size: 21px;
     color: white;
     text-decoration: underline;
@@ -70,8 +78,8 @@ a:hover {
 
 /*conteudo*/
 main {
-    display: flex;
-    flex-direction: column
+    background: rgb(242, 242, 242);
+    background: linear-gradient(180deg, rgba(242, 242, 242, 1) 11%, rgba(82, 82, 82, 1) 95%);
 }
 
 .tituloPrincipal {
@@ -200,10 +208,6 @@ ul {
     margin: 40px 0px 40px 0;
 }
 
-main {
-    background: rgb(242, 242, 242);
-
-}
 
 /*conteudo*/
 
@@ -244,9 +248,39 @@ footer img {
 }
 
 @media screen and (max-width: 858px) {
-    nav {
+
+
+    header {
+        border: solid 1px rgb(0, 102, 255);
+        padding: 0px;
+        margin: 0px;
+
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+
+    }
+
+    #logo {
+
+
+        margin: 15px 0;
+        border: solid 1px red;
+
+    }
+
+    nav {
+        border: solid 1px rgb(0, 102, 255);
+        font-family: 'Roboto',
+            sans-serif;
+        position: unset;
+        margin: 15px 0;
+
+
+
+    }
+
+    #beneficios ul {
+        margin: 0px 0px 30px 0;
     }
 
     #beneficios-li {
@@ -259,7 +293,7 @@ footer img {
 
     #imagensBeneficios {
 
-        width: 90%;
+        width: 70%;
         opacity: 1;
         margin: 0;
         -webkit-box-shadow: 9px 12px 17px 2px #000000;
@@ -272,13 +306,12 @@ footer img {
         height: 350px;
         margin: 40px 0px 40px 0;
     }
+
+
 }
 
 @media screen and (max-width: 642px) {
-    nav {
-        display: flex;
-        flex-direction: column
-    }
+
 
     #beneficios-li {
         display: flex;
