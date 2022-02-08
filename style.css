@@ -74,7 +74,8 @@ main {
 }
 
 .tituloPrincipal {
-    padding: 30px;
+    margin: 30px 0px 30px 0;
+    padding: 30px 5px 30px 5pxz;
     text-align: center;
     font-size: 2em;
     font-style: none;
@@ -156,6 +157,10 @@ p {
 
 }
 
+ul {
+    margin: px
+}
+
 .itens {
     font-size: 21px;
     margin: 15px 15px;
@@ -189,7 +194,9 @@ p {
 }
 
 #video {
-    padding: 30px
+    width: 800px;
+    height: 500px;
+    margin: 40px 0px 40px 0;
 }
 
 main {
@@ -235,9 +242,103 @@ footer img {
 
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 858px) {
     nav {
         display: flex;
         flex-direction: column
+    }
+
+    #beneficios-li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    #imagensBeneficios {
+
+        width: 90%;
+        opacity: 1;
+        margin: 0;
+        -webkit-box-shadow: 9px 12px 17px 2px #000000;
+        box-shadow: 9px 12px 17px 2px #000000;
+
+    }
+
+    #video {
+        width: 650px;
+        height: 350px;
+        margin: 40px 0px 40px 0;
+    }
+}
+
+@media screen and (max-width: 642px) {
+    nav {
+        display: flex;
+        flex-direction: column
+    }
+
+    #beneficios-li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    #imagensBeneficios {
+
+        width: 90%;
+        opacity: 1;
+        margin: 0;
+        -webkit-box-shadow: 9px 12px 17px 2px #000000;
+        box-shadow: 9px 12px 17px 2px #000000;
+
+    }
+
+    #video {
+        width: 500px;
+        height: 300px;
+        margin: 40px 0px 40px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #video {
+        width: 460px;
+        height: 300px;
+        margin: 40px 0px 40px 0;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column
+    }
+
+    #beneficios-li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    #imagensBeneficios {
+
+        width: 90%;
+        opacity: 1;
+        margin: 0;
+        -webkit-box-shadow: 9px 12px 17px 2px #000000;
+        box-shadow: 9px 12px 17px 2px #000000;
+
+    }
+
+    #video {
+        width: 460px;
+        height: 300px;
+        margin: 40px 0px 40px 0;
     }
 }
